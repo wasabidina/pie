@@ -41,7 +41,14 @@
 # c = int(c)
 # d = int(d)
 # print(type(d))
-name = Madina
-a = menya zovut
-d = mne
-c = 24,5
+name = "Madina"
+a = "menya zovut "
+d = " mne "
+c = 24.5
+# a = str(a)
+# name = str(name)
+# d = str(d)
+c = str(c)
+# print(a+name+d+c)
+intro = f" menya zovut {name} mne {c}"
+print(intro)
