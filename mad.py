@@ -40,15 +40,74 @@
 # d = 100 #'100'
 # c = int(c)
 # d = int(d)
-# print(type(d))
-name = "Madina"
-a = "menya zovut "
-d = " mne "
-c = 24.5
-# a = str(a)
-# name = str(name)
-# d = str(d)
-c = str(c)
-# print(a+name+d+c)
-intro = f" menya zovut {name} mne {c}"
-print(intro)
+# # print(type(d))
+# name = "Madina"
+# a = "menya zovut "
+# d = " mne "
+# c = 24.5
+# # a = str(a)
+# # name = str(name)
+# # d = str(d)
+# c = str(c)
+# # print(a+name+d+c)
+# intro = f" menya zovut {name} mne {c}"
+# print(intro)
+# a = 6 
+# b = 4
+# c = 1996
+# # print(a + b + c)
+# a = '0' + str(6) + "."
+# b = "0" + str(4) + "."
+# c = str(1996)
+# print(a+b+c)
+# a = 123
+# if a > 200:
+# 	print("False")
+# elif a == 123:
+# 	print("True")
+# else:
+# 	print("True")
+
+
+# if a > 10:
+# 	print("больше 10ти")
+# elif a == 10:
+# 	print("ровно 10")
+# else:
+# 	print("меньше 10ти")
+
+
+# elif a == 10:
+# 	print("ровно 10")
+# else:
+# 	print("меньше 10ти")
+
+# a = "qShaskl"
+# b = 8
+# # print(b)
+# if b > 5 and  not b < 8:
+# 	print("больше 5ти или 8")
+# elif b == 5:
+# 	print("равно с 5")
+# elif b == 7:
+# 	print('7777')
+# else:
+# 	print("ничего из вышеперечисоенного")
+
+a = input('введите а\n')
+b = input('введите b\n')
+o = input('введите что сделать\n')
+a = int(a)
+b = int(b)
+print(a)
+print(b)
+if o =='*':
+	print(a * b)
+elif o =='/':
+	print(int(a / b))
+elif o =='-':
+	print(int(a-b))
+elif o =='+' or 'plus' == o:
+	print(int(a+b))
+else:
+	print('выберите правильный оператор')
