@@ -33,3 +33,4 @@ c = 3
 # print(float(a) + float(b) + float(c))
 # print(str(a) + str(b) + str(c))
 print(int(a) + int(round(b)) + int(c))
+print("hello world")
