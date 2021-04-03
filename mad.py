@@ -23,14 +23,25 @@
 	# }
 	# boolean = True #False
 
-a = '1'
-# a = float(a)
-b = 2.912
-# b = float(b)
-c = 3
-# c = float(c)
+# a = '1'
+# # a = float(a)
+# b = 2.912
+# # b = float(b)
+# c = 3
+# # c = float(c)
 
-# print(float(a) + float(b) + float(c))
-# print(str(a) + str(b) + str(c))
-print(int(a) + int(round(b)) + int(c))
-print("hello world")
+# # print(float(a) + float(b) + float(c))
+# # print(str(a) + str(b) + str(c))
+# print(int(a) + int(round(b)) + int(c))
+# print("hello world")
+
+
+# c = 98.98 # 98
+# d = 100 #'100'
+# c = int(c)
+# d = int(d)
+# print(type(d))
+name = Madina
+a = menya zovut
+d = mne
+c = 24,5
