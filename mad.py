@@ -165,10 +165,76 @@
 # 		break
 # 	x = x + 1
 
-for x in range (0,10):
-	print('я прграмист')
+# for x in range (0,10):
+# 	print('я прграмист')
+
+
+
+# for x in range (1,100):
+	# print(x)
+
+ # summa = [1, 100]
+ # x = 0
+ # while x < summa:
+ # 		print('индекс: ' , x)
+ # 		# bre?"ak
+	
+
+# def say_hello(name,age):
+# 	print('hello ' + name)
+# # 	print(name, age)
+
+# # say_hello('Arkhat', 23)
+
+# import datetime
+# n = datetime.datetime.now()
+# print(n)
+
+# # def plus(a, b):
+# # 	c = a * b
+# # 	return c
+
+# jauabi = plus(2, 3)
+# print(jauabi)
 
 
 
 
 
+
+
+
+
+
+# # x = 1
+# # summa = 0
+# # while x <= 5:
+# # 	print(x)
+# # 	# summa = summa + x
+# # 	x = x + 1
+
+# a =['asdz', 'asdas', 'Aza', 'Madina', 'Iza']
+
+import requests
+import json
+# croco = requests.post('http://example.com/', data={'key': 'value'})
+# print(croco.text)
+
+# url = "https://api-football-v1.p.rapidapi.com/v2/predictions/157462"
+
+# headers = {
+#     'x-rapidapi-key': "SIGN-UP-FOR-KEY",
+#     'x-rapidapi-host': "api-football-v1.p.rapidapi.com"
+#     }
+
+# response = requests.request("GET", url, headers=headers)
+
+# print(response.text)
+
+ploads = {'things':2,'total':25}
+r = requests.get('https://httpbin.org/get',params=ploads)
+res = r.text
+res = json.loads(res)
+print(res['args']['total'])
+
+print(res["headers"]['Host'])
