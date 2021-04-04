@@ -94,20 +94,81 @@
 # else:
 # 	print("ничего из вышеперечисоенного")
 
-a = input('введите а\n')
-b = input('введите b\n')
-o = input('введите что сделать\n')
-a = int(a)
-b = int(b)
-print(a)
-print(b)
-if o =='*':
-	print(a * b)
-elif o =='/':
-	print(int(a / b))
-elif o =='-':
-	print(int(a-b))
-elif o =='+' or 'plus' == o:
-	print(int(a+b))
-else:
-	print('выберите правильный оператор')
+# a = input('введите а\n')
+# b = input('введите b\n')
+# o = input('введите что сделать\n')
+# a = int(a)
+# b = int(b)
+# print(a)
+# print(b)
+# if o =='*':
+# 	print(a * b)
+# elif o =='/':
+# 	print(int(a / b))
+# elif o =='-':
+# 	print(int(a-b))
+# elif o =='+' or 'plus' == o:
+# 	print(int(a+b))
+# else:
+# 	print('выберите правильный оператор')
+
+
+# a = input('введите пол\n')
+# b = input('введите возраст\n')
+# a = str(a)
+# b = int(b)
+# print(a)
+# print(b)
+# if (a =='ж' and b >= 18) or (a =='м' and b >= 21):
+# 	print('Добро пожаловать')
+# elif (a =='ж' and b < 18) or (a =='м' and b < 21):
+# 	print('Запрещено')
+
+# a = input('выберите продукт\n')
+# b = input('сколько кг\n')
+# a = str(a)
+# b = int(b)
+# if a == "яблоко":
+# 	summa = b * 100
+# 	print(summa)
+# elif a == "груша":
+# 	summa = b * 200
+# 	print(summa)
+
+# a = input("ваш возраст")
+# a = int(a)
+# b = input("зарплата")
+# if a > 21 and a < 30 and int(b) > 1000000:
+# 	print("звони 777568991")
+# else:
+# 	print("thank you, next")
+
+
+# a = ["vinograd", 23, 96, 74, 'lozhka']
+# print(a[-3])
+
+# d = {
+# 	'soz' : 'vinograd',
+# 	'cifra' : 23,
+# 	"chislo" : 96,
+# 	"vozrast" : 74,
+# 	'vesh' : 'lozhka'
+# 	}
+# print(d['vesh'])
+
+
+# massiv = [1,2,3,1,2,3,2,17,45,7,45,8,'low',2,3,1,3]
+# x = 13
+# while x < len(massiv):
+# 	if massiv[x] == 'low':
+# 		print('индекс: ' , x)
+# 		break
+# 	x = x + 1
+
+for x in range (0,10):
+	print('я прграмист')
+
+
+
+
+
